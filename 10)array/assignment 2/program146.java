@@ -19,6 +19,7 @@ class Core {
 
 		for(int i=0;i<arr1.length;i++) {
 			arr1[i] = Integer.parseInt(br.readLine());
+			ans[i] = arr1[i];
 		}
 
 		System.out.println("Enter Second Array Element : ");
@@ -26,19 +27,15 @@ class Core {
 		for(int i=0;i<arr2.length;i++) {
 			arr2[i] = Integer.parseInt(br.readLine());
 		}
+
 		System.out.println("merged array : ");
-		for(int i=0;i<ans.length;i++) {
-			for(int j=0;j<arr1.lenghth;j++) {
-				ans[j]=arr1[j];
-				if()	
-			}
+		for(int i=0;i<arr2.length;i++) {
+			ans[arr1.length+i]=arr2[i];
 			
 		}
-		for(int i=0;i<arr1.length;i++) {
-			ans[i]=arr1[i];
+		for(int i=0;i<ans.length;i++) {
+			System.out.println(ans[i]);
 		}
-		for(int i=arr1.length;i<ans.length) {
-			ans[i] = 
-		}
+		
 	}
 }
